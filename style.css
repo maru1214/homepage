@@ -70,36 +70,36 @@ footer {
 
 @media (max-width: 600px) {
   body {
-    padding: 0 0.8rem;
-    font-size: 0.5rem;
+    padding: 0 1.4rem;
+    font-size: 0.28rem;
     line-height: 1.7;
   }
 
   h1 {
-    font-size: 0.75rem;
+    font-size: 0.42rem;
   }
 
   h2 {
-    font-size: 0.65rem;
+    font-size: 0.36rem;
   }
 
   h3 {
-    font-size: 0.58rem;
+    font-size: 0.32rem;
   }
 
   p,
   li,
   a {
-    font-size: 0.5rem;
+    font-size: 0.28rem;
   }
 
   header {
-    margin-left: -0.8rem;
-    margin-right: -0.8rem;
+    margin-left: -1.4rem;
+    margin-right: 1.4rem;
   }
 
   header nav {
-    padding: 0.8rem;
+    padding: 0.8rem 1.4rem;
     flex-wrap: wrap;
   }
 }
