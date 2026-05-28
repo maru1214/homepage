@@ -71,27 +71,27 @@ footer {
 @media (max-width: 600px) {
   body {
     padding: 0 1.4rem;
-    font-size: 0.38rem;
+    font-size: 0.76rem;
     line-height: 1.7;
     font-family: Arial, Helvetica, sans-serif;
   }
 
   h1 {
-    font-size: 0.58rem;
+    font-size: 1.16rem;
   }
 
   h2 {
-    font-size: 0.5rem;
+    font-size: 1rem;
   }
 
   h3 {
-    font-size: 0.44rem;
+    font-size: 0.88rem;
   }
 
   p,
   li,
   a {
-    font-size: 0.38rem;
+    font-size: 0.76rem;
   }
 
   header {
