@@ -9,7 +9,7 @@ html {
   background-size: cover;
   background-position: center; 
   background-attachment: fixed;
-  font-family: Fantasy, Cursive, "Yusei Magic", Arial, Helvetica, sans-serif; 
+  font-family: Fantasy, "Yusei Magic", Arial, Helvetica, sans-serif; 
 }
 head, body, h1, h2, h3, p, ol, li, footer { color: #d4d4d4; }
 
@@ -26,7 +26,7 @@ header {
 }
 
 header nav {
-  background-color: rgba(46, 46, 46, 0.75);
+  background-color: rgba(46, 46, 46, 0.65);
   display: flex;
   justify-content: center;
   gap: clamp(0.8rem, 3vw, 2.5rem);
