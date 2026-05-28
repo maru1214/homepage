@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="style.css">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>CV</title>
+</head>
+<body>
+ <header>
+    <nav>
+        <a href="index_en.html">Home</a>
+        <a href="about_en.html">About</a>
+        <a href="publication_en.html">Publications</a>
+        <a href="cv_en.html">CV</a>
+        <a href="cv_jp.html">日本語</a>
+    </nav>
+ </header>
+ <h2>CV</h2>
+ <h3>Education</h3>
+    <ul>
+        <li>2026.4- Ph.D. student, Kyoto University, Graduate School of Science, Department of Astronomy</li>
+        <li>2026.3- M.Sc, Kyoto University, Graduate School of Science, Department of Physics and Astronomy, Division of Astrophysics</li>
+        <li>2024.3- B.Sc, Kyoto University, Faculty of Science</li>
+        <li>2020.3- A-Level Diploma, Ono High School, Hyogo Prefecture</li>
+    </ul>
+ <p>
+ </p>
+ <div id="footer"></div>
+ <script>
+  fetch("footer.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("footer").innerHTML = data;
+    });
+ </script>
+</body>
+</html>

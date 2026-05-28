@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <link rel="stylesheet" href="style.css">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>藤丸祐生の自己紹介</title>
+</head>
+<body>
+ <header>
+    <nav>
+        <a href="index_jp.html">ホーム</a>
+        <a href="about_jp.html">自己紹介</a>
+        <a href="publication_jp.html">業績</a>
+        <a href="cv_jp.html">経歴</a>
+        <a href="about_en.html">English</a>
+    </nav>
+ </header>
+ <h2>自己紹介</h2>
+ <p>こんにちは、藤丸祐生です。
+ </p>
+ <div id="footer"></div>
+ <script>
+  fetch("footer.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("footer").innerHTML = data;
+    });
+ </script>
+</body>
+</html>

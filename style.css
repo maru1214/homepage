@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+html {
+  background-color: #0e0e0e;
+  background-image: url("meteor.jpg"); 
+  background-size: cover;
+  background-position: center; 
+  background-attachment: fixed;
+  font-family: Fantasy, Cursive, "Yusei Magic", Arial, Helvetica, sans-serif; 
+}
+head, body, h1, h2, h3, p, ol, li, footer { color: #d4d4d4; }
+
+h1 {
+    text-align: center;
+}
+
+h2, h3 {font-style: italic; }
+h2, h3 {font-weight: normal; }
+
+header {
+  margin-left: -5rem;
+  margin-right: 5rem;
+}
+
+header nav {
+  background-color: rgba(46, 46, 46, 0.75);
+  display: flex;
+  justify-content: center;
+  gap: clamp(0.8rem, 3vw, 2.5rem);
+  width: 100%;
+  padding: 1.2rem 5rem;
+  align-items: center;
+}
+
+header nav a {
+  color: #d4d4d4;
+  text-decoration: none;
+  text-align: center;
+}
+
+header nav a:visited,
+header nav a:hover,
+header nav a:active {
+  color: #d4d4d4;
+}
+
+body {
+  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.75);
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 5rem;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+#footer {
+  margin-top: auto;
+}
+
+footer {
+  padding: 1rem 0;
+  text-align: center;
+}

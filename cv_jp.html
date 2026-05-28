@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <link rel="stylesheet" href="style.css">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>藤丸祐生の経歴</title>
+</head>
+<body>
+ <header>
+    <nav>
+        <a href="index_jp.html">ホーム</a>
+        <a href="about_jp.html">自己紹介</a>
+        <a href="publication_jp.html">業績</a>
+        <a href="cv_jp.html">経歴</a>
+        <a href="cv_en.html">English</a>
+    </nav>
+ </header>
+ <h2>経歴</h2>
+ <h3>学歴</h3>
+    <ul>
+        <li>2026年4月~ 博士課程: 京都大学 大学院 理学研究科 物理学・宇宙物理学専攻 宇宙物理学分野</li>
+        <li>2026年3月 修士学位取得: 京都大学 大学院 理学研究科 物理学・宇宙物理学専攻 宇宙物理学分野</li>
+        <li>2024年3月 学士学位取得: 京都大学 理学部</li>
+        <li>2020年3月 兵庫県立小野高等学校普通科 卒業</li>
+    </ul>
+ <p>
+ </p>
+ <div id="footer"></div>
+ <script>
+  fetch("footer.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("footer").innerHTML = data;
+    });
+ </script>
+</body>
+</html>
