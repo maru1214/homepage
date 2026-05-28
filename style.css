@@ -70,6 +70,36 @@ footer {
 
 @media (max-width: 600px) {
   body {
-    font-size: 0.5rem;
+    padding: 0 0.3rem;
+    font-size: 0.85rem;
+    line-height: 1.7;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  h3 {
+    font-size: 0.9rem;
+  }
+
+  p,
+  li,
+  a {
+    font-size: 0.85rem;
+  }
+
+  header {
+    margin-left: -0.3rem;
+    margin-right: -0.3rem;
+  }
+
+  header nav {
+    padding: 1rem 0.3rem;
+    flex-wrap: wrap;
   }
 }
