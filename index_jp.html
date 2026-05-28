@@ -7,15 +7,14 @@
  <title>ホーム</title>
 </head>
 <body>
- <header>
-    <nav>
-        <a href="index_jp.html">ホーム</a>
-        <a href="about_jp.html">自己紹介</a>
-        <a href="publication_jp.html">業績</a>
-        <a href="cv_jp.html">経歴</a>
-        <a href="index.html">English</a>
-    </nav>
- </header>
+ <div id="header"></div>
+ <script>
+  fetch("header_jp.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("header").innerHTML = data;
+    });
+ </script>
  <h1>藤丸祐生のホームページ</h1>
  <h2>ようこそ</h2>
  <img src="IMG_2555.jpeg" alt="Profile photo" class="profile-image">

@@ -7,15 +7,14 @@
  <title>自己紹介</title>
 </head>
 <body>
- <header>
-    <nav>
-        <a href="index_jp.html">ホーム</a>
-        <a href="about_jp.html">自己紹介</a>
-        <a href="publication_jp.html">業績</a>
-        <a href="cv_jp.html">経歴</a>
-        <a href="about_en.html">English</a>
-    </nav>
- </header>
+ <div id="header"></div>
+ <script>
+  fetch("header_jp.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("header").innerHTML = data;
+    });
+ </script>
  <h2>自己紹介</h2>
  <p>
   京都大学宇宙物理学教室D1の藤丸祐生です。<br>
